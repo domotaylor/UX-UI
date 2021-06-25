@@ -23,7 +23,7 @@
 .button2 {background-color: gold;}
 
 .button3 {background-color: orangered;}
-.color-change-3x{animation:color-change-3x 4s linear infinite alternate both}
+.background-color-change-3x{animation:color-change-3x 4s linear infinite alternate both}
 </style>
 <body style="background-color: aqua;">
 
@@ -33,5 +33,8 @@
     <a href="#" class="button  button2 hvr-pulse-shrink">Checkout</a>
     <a href="#" class="button  button3 hvr-bounce-in">Checkout</a><br>
     <img src="./images/lebron4rings.webp" alt="Lebron"   width="200" height="150">
+
+    <audio id="sound" src="./sound/onclicksound.wav" type="audio/WAV"></audio>
+    <button onclick="document.getElementById('sound').play();">play me</button>
 </body>
 </html>
