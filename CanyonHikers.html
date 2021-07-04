@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+<title>Canyon Hikers</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Slackey:regular" rel="stylesheet" />
+    <link href="./css/hover.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" type="text/css" href="./css/Canyon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/Canyon.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+    </script>
+
+<body>
+ <!--Navbar-->
+ <nav>
+     <label class="logo" style="font-family: slackey; color: darkgreen;"> CanyonHikers</label>
+     <ul>
+         <li><a class="active" href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="#">Prices</a></li>
+     </ul>
+     <label id="icon">
+        <i class="fa fa-bars"></i>
+     </label>
+ </nav>
+ <section style="align-content: center; font-size: 24px; font-family: slackey; color: purple;"><h1 style="text-align: center;">Enjoy An Adventure Of A Lifetime </h1><br>
+<h2 style="text-align: center; font: weight 100px; font-family: Arial, Helvetica, sans-serif; color: black;">There is plenty more to explore in our amazing Canyon Tour</h2>
+</section>
+
+    <footer style="background-color: rgb(224, 169, 97);">
+        <p> <p>Copyright &copy; 2021 CanyonHikers</p><br>
+        <a href="#" class="text-dark" style="text-align: right;">Terms of Use</a> 
+        <a href="#" class="text-dark">Privacy Policy</a>
+        <a href="mailto:CanyonHikers@gmail.com">CanyonHikers@gmail.com</a></p>
+        <audio controls autoplay style="margin: auto; text-align: center; ">
+            <source src="./sound/mixkit-hawk-call-squawk-1277.wav" type="audio/wav">
+        </audio>
+      </footer>
+</body>
+</html>
