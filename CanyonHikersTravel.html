@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+<title>Canyon Hikers</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Slackey:regular" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="./css/CanyonTravel.css">
+    <script src="./js/Canyon.js"></script>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo" style="font-family: slackey; color: rgb(5, 65, 5);"> Canyon Hikers</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="./video/Canyonvideo.mp4" muted loop autoplay></video> 
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>A grand Canyon Experience</h2>
+            <h3>You'll never forget!!</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur, beatae quia quasi fuga maiores odit? Sit suscipit esse maxime totam!</p>
+            <a href="#">Book Now</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://grandcanyon.com/tours/grand-canyon-tours-2/">Tour dates</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="https://www.history.com/topics/landmarks/grand-canyon">About</a></li>
+            <li><a href="https://www.nps.gov/media/photo/gallery-item.htm?pg=0&id=F77E8BB4-155D-451F-670C6F80B88A153E&gid=F77B17BF-155D-451F-678AFC210F0FCA27">Gallery</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+})
+    </script>
+
+<footer>
+    <p>
+        </p><p class="center">© Canyon Hikers Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+        <br>
+    <p></p>
+</footer>
+</body>
+</html>
