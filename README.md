@@ -9,10 +9,13 @@ Then for a live project I was the designer for a threatre company. I designed al
 
 
 ![Blog mockup](https://user-images.githubusercontent.com/82992302/127409327-676c6b43-8b96-45d5-b5ef-8a13af2368e2.png)
+
 ![Contact Page](https://user-images.githubusercontent.com/82992302/127409331-5b0a90fc-8239-4d26-a7f5-3eb4da4486fd.png)
+
 ![Employment Page mockup](https://user-images.githubusercontent.com/82992302/127409332-f7f6512d-119e-41bf-9811-e9da5b4dbd51.png)
+
 ![Ensemble Mockup](https://user-images.githubusercontent.com/82992302/127409337-05bed88b-2af4-42d1-89a8-9c9d9d35e2d3.png)
+
 ![FAQs mockup](https://user-images.githubusercontent.com/82992302/127409351-2836f4fb-0c25-4e46-9481-b7018f517f2e.png)
-![Full Theatre vertigo page – 1](https://user-images.githubusercontent.com/82992302/127409352-d30afb0f-e73e-4f84-b0bc-69f602c3dcbf.png)
-![Full Theatre vertigo page](https://user-images.githubusercontent.com/82992302/127409356-7bba88f4-998e-490d-bbfa-36027fb0b526.png)
+
 ![Plan a visit mockup](https://user-images.githubusercontent.com/82992302/127409361-d31dbd64-306a-4af3-a542-3380b2f55395.png)
